@@ -173,3 +173,24 @@ export const DATA_ACCESS_ITEMS = [
 		details: ["Documents: 56", "Database: 3", "Reminders: 179", "Sheets: 19"]
 	}
 ];
+
+export const INSIGHT_CARD_ITEMS = [
+	{
+		author: "Brooklyn Simmons",
+		date: "February 23, 2024",
+		imageSrc: "/assets/img/blog1.png",
+		title: "Enhance Personalization with AI-Driven CRM Emails",
+		description:
+			"Imagine a salesperson who boosted their engagement rates by using customer insights and AI-driven personalization tools and chatbots, transforming their email marketing approach overnight.",
+		category: "Artificial Intelligence"
+	},
+	{
+		author: "Kathryn Murphy",
+		date: "June 10, 2024",
+		imageSrc: "/assets/img/blog2.png",
+		title: "The Transformative Power of AI in Sales Forecasting",
+		description:
+			"Imagine a salesperson who boosted their engagement rates by using customer insights and AI-driven personalization tools and chatbots, transforming their email marketing approach overnight.",
+		category: "Email Marketing"
+	}
+];
