@@ -228,3 +228,104 @@ export const FAQ_ITEMS = [
 		duration: 500
 	}
 ];
+
+export const PRICING_PLANS = [
+	// Monthly Plans
+	{
+		id: 1,
+		name: "Starter",
+		description: "Perfect for individuals.",
+		monthlyPrice: "$9",
+		yearlyPrice: "$99",
+		planType: "monthly",
+		isPopular: false,
+		features: [
+			{ text: "Team members: 1" },
+			{ text: "Users: Unlimited" },
+			{ text: "Integrations: Unlimited" },
+			{ text: "Total message: 150" },
+			{ text: "Assistants: 2" }
+		]
+	},
+	{
+		id: 2,
+		name: "Business",
+		description: "Perfect for small businesses.",
+		monthlyPrice: "$29",
+		yearlyPrice: "$269",
+		planType: "monthly",
+		isPopular: true,
+		features: [
+			{ text: "Team members: 3" },
+			{ text: "Users: Unlimited" },
+			{ text: "Integrations: Unlimited" },
+			{ text: "Total message: 650" },
+			{ text: "Assistants: 5" }
+		]
+	},
+	{
+		id: 3,
+		name: "Professional",
+		description: "Perfect for larger businesses.",
+		monthlyPrice: "$59",
+		yearlyPrice: "$699",
+		planType: "monthly",
+		isPopular: false,
+		features: [
+			{ text: "Team members: 1" },
+			{ text: "Users: Unlimited" },
+			{ text: "Integrations: Unlimited" },
+			{ text: "Total message: 1650" },
+			{ text: "Assistants: 12" }
+		]
+	},
+	// Yearly Plans
+	{
+		id: 4,
+		name: "Starter",
+		description: "Perfect for individuals.",
+		monthlyPrice: "$9",
+		yearlyPrice: "$99",
+		planType: "yearly",
+		isPopular: false,
+		features: [
+			{ text: "Team members: 1" },
+			{ text: "Users: Unlimited" },
+			{ text: "Integrations: Unlimited" },
+			{ text: "Total message: 150" },
+			{ text: "Assistants: 2" }
+		]
+	},
+	{
+		id: 5,
+		name: "Business",
+		description: "Perfect for small businesses.",
+		monthlyPrice: "$29",
+		yearlyPrice: "$269",
+		planType: "yearly",
+		isPopular: true,
+		features: [
+			{ text: "Team members: 3" },
+			{ text: "Users: Unlimited" },
+			{ text: "Integrations: Unlimited" },
+			{ text: "Total message: 650" },
+			{ text: "Assistants: 5" }
+		]
+	},
+	{
+		id: 6,
+		name: "Professional",
+		description: "Perfect for larger businesses.",
+		monthlyPrice: "$59",
+		yearlyPrice: "$699",
+		planType: "yearly",
+		isPopular: false,
+		features: [
+			{ text: "Team members: 1" },
+			{ text: "Users: Unlimited" },
+			{ text: "Integrations: Unlimited" },
+			{ text: "Total message: 1650" },
+			{ text: "Assistants: 12" }
+		]
+	}
+];

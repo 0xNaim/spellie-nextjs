@@ -198,8 +198,6 @@ const SolutionItem = ({ imgSrc, title, description }) => {
 			<Image
 				src={imgSrc}
 				alt="check"
-				loading="lazy"
-				decoding="async"
 				width={24}
 				height={24}
 			/>
