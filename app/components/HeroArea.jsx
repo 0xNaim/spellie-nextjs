@@ -10,17 +10,11 @@ const HeroArea = () => {
 	// State to manage messages and user input
 	const [messages, setMessages] = useState(MESSAGES);
 	const [userInput, setUserInput] = useState("");
-	const [suggestedCorrection, setSuggestedCorrection] = useState(null);
 	const chatListRef = useRef(null);
 
 	// Function to add a new message to the chat
 	const addMessage = (message) => {
 		setMessages((prevMessages) => [...prevMessages, message]);
-	};
-
-	// Function to correct the user's input (simple grammar correction simulation)
-	const correctGrammar = (text) => {
-		return "This is simple grammar correction simulation!";
 	};
 
 	// Function to handle message submission
@@ -39,27 +33,16 @@ const HeroArea = () => {
 				text: userInput
 			});
 
-			const correctedText = correctGrammar(userInput);
-			setSuggestedCorrection(correctedText);
 			setUserInput("");
-		}
-	};
 
-	// Handle acceptance of the suggested correction
-	const acceptSuggestion = () => {
-		if (suggestedCorrection) {
-			const currentTime = new Date().toLocaleTimeString([], {
-				hour: "2-digit",
-				minute: "2-digit"
-			});
-
-			// Add Spellie's correction to the messages
-			addMessage({
-				sender: "Spellie",
-				time: currentTime,
-				text: suggestedCorrection
-			});
-			setSuggestedCorrection(null);
+			// Simulate Spellie's response after a short delay
+			setTimeout(() => {
+				addMessage({
+					sender: "Spellie",
+					time: currentTime,
+					text: "Free quote limit reached. Please upgrade for unlimited access."
+				});
+			}, 500);
 		}
 	};
 
@@ -97,7 +80,7 @@ const HeroArea = () => {
 							</h1>
 							<p className="text-center mx-850">
 								{`An AI assistant to correct your grammar and language in Slack -
-                                "Public", "Private", "User" Channels`}
+								"Public", "Private", "User" Channels`}
 							</p>
 							<div className="hero-btn">
 								<div data-aos="fade-up" data-aos-duration="1000">
@@ -137,19 +120,6 @@ const HeroArea = () => {
 											</div>
 										</div>
 									))}
-									{suggestedCorrection && (
-										<div className="hero-chat-suggestion">
-											<p>
-												<strong>Spellie Suggests:</strong> {suggestedCorrection}
-											</p>
-											<button
-												onClick={acceptSuggestion}
-												className="btn btn-accept"
-											>
-												Accept
-											</button>
-										</div>
-									)}
 								</div>
 								<form
 									className="hero-chat-input"

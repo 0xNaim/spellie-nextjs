@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { DATA_ACCESS_ITEMS, SOLUTION_ITEMS } from "../constants";
+import { SOLUTION_ITEMS } from "../constants";
 
 const Solution = () => {
 	return (
@@ -148,37 +148,6 @@ const Solution = () => {
 									</div>
 								</div>
 							</div>
-
-							{/* Effortlessly manage data */}
-							<div className="solution-item">
-								<div data-aos="fade-up" data-aos-duration="800">
-									<div className="row align-items-center">
-										<div className="col-md-6 pr-47">
-											<h3>Effortlessly Manage Data Access</h3>
-											<p>
-												Our intuitive system allows for easy customization,
-												ensuring your assistant aligns perfectly with the unique
-												demands of different scenarios.
-											</p>
-											<a className="btn btn-secondary" href="integrations.html">
-												Learn more
-											</a>
-										</div>
-										<div className="col-md-6 pl-47 mt-30">
-											<div className="solution-box-list">
-												{DATA_ACCESS_ITEMS.map((dataAccess, idx) => (
-													<DataAccessItem
-														key={idx}
-														title={dataAccess.title}
-														iconSrc={dataAccess.iconSrc}
-														details={dataAccess.details}
-													/>
-												))}
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -195,22 +164,6 @@ const SolutionItem = ({ imgSrc, title, description }) => {
 				<h4>{title}</h4>
 				<p>{description}</p>
 			</div>
-		</div>
-	);
-};
-
-const DataAccessItem = ({ title, iconSrc, details }) => {
-	return (
-		<div className="solution-box-item">
-			<h4>
-				<Image src={iconSrc} alt={title} width={24} height={24} />
-				{title}
-			</h4>
-			<ul>
-				{details.map((detail, index) => (
-					<li key={index}>{detail}</li>
-				))}
-			</ul>
 		</div>
 	);
 };
