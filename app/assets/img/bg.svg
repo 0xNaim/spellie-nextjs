@@ -378,9 +378,9 @@
 <feGaussianBlur stdDeviation="400" result="effect1_foregroundBlur_1_2"/>
 </filter>
 <linearGradient id="paint0_linear_1_2" x1="960" y1="130" x2="960" y2="1740" gradientUnits="userSpaceOnUse">
-<stop stop-color="#08080D"/>
-<stop offset="0.499996" stop-color="#08080D" stop-opacity="0"/>
-<stop offset="1" stop-color="#08080D"/>
+<stop stopColor="#08080D"/>
+<stop offset="0.499996" stopColor="#08080D" stop-opacity="0"/>
+<stop offset="1" stopColor="#08080D"/>
 </linearGradient>
 <clipPath id="clip0_1_2">
 <rect width="1920" height="7686" fill="white"/>

@@ -6,12 +6,12 @@
 <path d="M40.5281 34.3267L39.0118 38.8371C39.0118 38.8371 37.6833 38.1281 36.0548 38.1281C33.6674 38.1281 33.5472 39.6263 33.5472 40.0039C33.5472 42.0639 38.9171 42.8532 38.9171 47.6784C38.9171 51.4747 36.5093 53.9192 33.2627 53.9192C29.3668 53.9192 27.3745 51.4945 27.3745 51.4945L28.4177 48.048C28.4177 48.048 30.4656 49.8062 32.1937 49.8062C33.3229 49.8062 33.7822 48.9171 33.7822 48.2676C33.7822 45.5804 29.3767 45.4606 29.3767 41.0451C29.3767 37.3288 32.0441 33.7325 37.4285 33.7325C39.5031 33.7325 40.5281 34.3267 40.5281 34.3267Z" fill="#D9D9E8"/>
 <defs>
 <linearGradient id="paint0_linear_852_2179" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#05050F" stop-opacity="0"/>
-<stop offset="1" stop-color="#8D8DB9" stop-opacity="0.16"/>
+<stop stopColor="#05050F" stop-opacity="0"/>
+<stop offset="1" stopColor="#8D8DB9" stop-opacity="0.16"/>
 </linearGradient>
 <linearGradient id="paint1_linear_852_2179" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8D8DB9"/>
-<stop offset="1" stop-color="#27273F"/>
+<stop stopColor="#8D8DB9"/>
+<stop offset="1" stopColor="#27273F"/>
 </linearGradient>
 </defs>
 </svg>

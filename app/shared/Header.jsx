@@ -5,8 +5,9 @@ import Link from "next/link";
 import { useState } from "react";
 import Logo from "../assets/img/Asset1.png";
 import SearchIcon from "../assets/img/search.svg";
-import { MENU_ITEMS } from "../constants/menu-items";
+
 import Button from "../ui/Button";
+import { MENU_ITEMS } from "../constants";
 
 const Header = () => {
 	const [showMobileMenu, setShowMenu] = useState(false);

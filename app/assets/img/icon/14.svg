@@ -8,12 +8,12 @@
 <path d="M20 29.6931V33.3295L29.0909 40.1477V28.3294L26.5455 26.4204C23.8477 24.3977 20 26.3227 20 29.693V29.6931Z" fill="#D9D9E8"/>
 <defs>
 <linearGradient id="paint0_linear_852_2251" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#05050F" stop-opacity="0"/>
-<stop offset="1" stop-color="#8D8DB9" stop-opacity="0.16"/>
+<stop stopColor="#05050F" stop-opacity="0"/>
+<stop offset="1" stopColor="#8D8DB9" stop-opacity="0.16"/>
 </linearGradient>
 <linearGradient id="paint1_linear_852_2251" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8D8DB9"/>
-<stop offset="1" stop-color="#27273F"/>
+<stop stopColor="#8D8DB9"/>
+<stop offset="1" stopColor="#27273F"/>
 </linearGradient>
 </defs>
 </svg>

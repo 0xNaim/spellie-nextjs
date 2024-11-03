@@ -45,28 +45,28 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_852_2131" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#05050F" stop-opacity="0"/>
-<stop offset="1" stop-color="#8D8DB9" stop-opacity="0.16"/>
+<stop stopColor="#05050F" stop-opacity="0"/>
+<stop offset="1" stopColor="#8D8DB9" stop-opacity="0.16"/>
 </linearGradient>
 <linearGradient id="paint1_linear_852_2131" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8D8DB9"/>
-<stop offset="1" stop-color="#27273F"/>
+<stop stopColor="#8D8DB9"/>
+<stop offset="1" stopColor="#27273F"/>
 </linearGradient>
 <linearGradient id="paint2_linear_852_2131" x1="20.0029" y1="40" x2="59.9972" y2="40" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.1"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
+<stop stopColor="white" stop-opacity="0.1"/>
+<stop offset="1" stopColor="white" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint3_linear_852_2131" x1="20.0029" y1="40" x2="59.9972" y2="40" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.1"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
+<stop stopColor="white" stop-opacity="0.1"/>
+<stop offset="1" stopColor="white" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint4_linear_852_2131" x1="39.527" y1="39.5395" x2="59.0296" y2="59.0265" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A6A6C9" stop-opacity="0.24"/>
-<stop offset="1" stop-color="#ACACCD" stop-opacity="0.24"/>
+<stop stopColor="#A6A6C9" stop-opacity="0.24"/>
+<stop offset="1" stopColor="#ACACCD" stop-opacity="0.24"/>
 </linearGradient>
 <linearGradient id="paint5_linear_852_2131" x1="33.4051" y1="33.4292" x2="59.2803" y2="59.2838" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.1"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
+<stop stopColor="white" stop-opacity="0.1"/>
+<stop offset="1" stopColor="white" stop-opacity="0"/>
 </linearGradient>
 <clipPath id="clip0_852_2131">
 <rect width="40" height="40" fill="white" transform="translate(20 20)"/>

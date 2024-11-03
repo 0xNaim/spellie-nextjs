@@ -7,12 +7,12 @@
 <path d="M37.418 41.9855L32.4656 44.8438L20.3198 32.6021C20.395 32.5127 20.4802 32.4364 20.5731 32.3753C20.8227 32.1961 21.179 32.1483 21.482 32.2915L37.3348 39.8001C38.1406 40.1822 38.2039 41.5317 37.418 41.9855Z" fill="#8181B1"/>
 <defs>
 <linearGradient id="paint0_linear_852_1604" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#05050F" stop-opacity="0"/>
-<stop offset="1" stop-color="#8D8DB9" stop-opacity="0.16"/>
+<stop stopColor="#05050F" stop-opacity="0"/>
+<stop offset="1" stopColor="#8D8DB9" stop-opacity="0.16"/>
 </linearGradient>
 <linearGradient id="paint1_linear_852_1604" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8D8DB9"/>
-<stop offset="1" stop-color="#27273F"/>
+<stop stopColor="#8D8DB9"/>
+<stop offset="1" stopColor="#27273F"/>
 </linearGradient>
 </defs>
 </svg>

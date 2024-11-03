@@ -1,3 +1,4 @@
+import "aos/dist/aos.css";
 import "../app/assets/css/aos.min.css";
 import "../app/assets/css/bootstrap.min.css";
 import "../app/assets/css/lenis.css";

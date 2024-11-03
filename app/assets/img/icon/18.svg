@@ -7,12 +7,12 @@
 <path d="M28.4789 52.1463C29.178 51.7376 44.1957 42.9988 44.539 42.7963C44.8823 42.5963 44.9011 41.9813 44.5141 41.7588C44.1296 41.5376 43.3993 41.1176 43.1284 40.9563C42.7416 40.7432 42.2715 40.7489 41.89 40.9713C41.6978 41.0838 28.8659 48.5463 28.4377 48.7913C27.9221 49.0863 27.2892 49.0913 26.7774 48.7913L20 44.8088V48.1938C21.6478 49.1663 25.7512 51.5813 26.7449 52.1501C27.3379 52.4876 27.9059 52.4801 28.4801 52.1463" fill="#F2F2F7"/>
 <defs>
 <linearGradient id="paint0_linear_852_1623" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#05050F" stop-opacity="0"/>
-<stop offset="1" stop-color="#8D8DB9" stop-opacity="0.16"/>
+<stop stopColor="#05050F" stop-opacity="0"/>
+<stop offset="1" stopColor="#8D8DB9" stop-opacity="0.16"/>
 </linearGradient>
 <linearGradient id="paint1_linear_852_1623" x1="40" y1="0" x2="40" y2="80" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8D8DB9"/>
-<stop offset="1" stop-color="#27273F"/>
+<stop stopColor="#8D8DB9"/>
+<stop offset="1" stopColor="#27273F"/>
 </linearGradient>
 </defs>
 </svg>

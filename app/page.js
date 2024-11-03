@@ -1,5 +1,11 @@
+import HeroArea from "./components/HeroArea";
+
 const Home = () => {
-	return <div>Home page</div>;
+	return (
+		<div>
+			<HeroArea />
+		</div>
+	);
 };
 
 export default Home;

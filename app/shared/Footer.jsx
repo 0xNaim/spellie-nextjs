@@ -1,7 +1,7 @@
-import Logo from "../assets/img/Asset1.png";
 import Image from "next/image";
 import Link from "next/link";
-import { FOOTER_ITEMS } from "../constants/footer-items";
+import Logo from "../assets/img/Asset1.png";
+import { FOOTER_ITEMS } from "../constants";
 
 const Footer = () => {
 	return (
