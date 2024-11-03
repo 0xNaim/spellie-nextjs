@@ -1,19 +1,19 @@
 export const MENU_ITEMS = [
 	{
 		name: "Home",
-		link: "#"
+		link: "/"
 	},
 	{
 		name: "Integrations",
-		link: "#"
+		link: "#solution"
 	},
 	{
 		name: "Pricing",
-		link: "#"
+		link: "#pricing"
 	},
 	{
-		name: "Blogs",
-		link: "#"
+		name: "Faq",
+		link: "#faq"
 	}
 ];
 

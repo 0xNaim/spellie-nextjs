@@ -6,6 +6,7 @@ import AOS from "./components/AOS";
 import "./globals.css";
 import Footer from "./shared/Footer";
 import Header from "./shared/Header";
+import PercentageBar from "./shared/PercentageBar";
 
 export const metadata = {
 	title: "Spellie",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
 			<body>
 				<Header />
 				<AOS />
+				<PercentageBar />
 				{children}
 				<Footer />
 			</body>

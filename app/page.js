@@ -18,6 +18,13 @@ const Home = () => {
 			<Faq />
 			<Insights />
 			<Newsletter />
+
+			{/* Glowing button */}
+			<div className="glowing-button">
+				<a href="https://messagecapture.onrender.com/install" target="_blank">
+					Get Spellie For $29
+				</a>
+			</div>
 		</div>
 	);
 };

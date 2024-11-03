@@ -31,7 +31,7 @@ const Pricing = () => {
 	};
 
 	return (
-		<div className="pricing-area">
+		<div id='pricing' className="pricing-area">
 			<div className="container">
 				<div data-aos="fade-up" data-aos-duration="1400">
 					<div className="row">

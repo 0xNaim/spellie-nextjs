@@ -12,7 +12,7 @@ const Faq = () => {
 	};
 
 	return (
-		<div className="mx-auto faq-area mx-850 mtb-192">
+		<div id="faq" className="mx-auto faq-area mx-850 mtb-192">
 			<div className="container">
 				<div data-aos="fade-up" data-aos-duration="1000">
 					<div className="row">

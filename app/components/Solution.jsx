@@ -3,7 +3,7 @@ import { DATA_ACCESS_ITEMS, SOLUTION_ITEMS } from "../constants";
 
 const Solution = () => {
 	return (
-		<div className="solution-area mtb-192">
+		<div id="solution" className="solution-area mtb-192">
 			<div className="container">
 				<div data-aos="fade-up" data-aos-duration="1000">
 					<div className="row">
