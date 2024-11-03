@@ -3,8 +3,8 @@
 import AOS from "aos";
 import Image from "next/image";
 import { useEffect } from "react";
-import Bot from "../assets/img/Asset 2.png";
-import Avatar from "../assets/img/user-spellie.avif";
+import Bot from "../../public/assets/img/Asset 2.png";
+import Avatar from "../../public/assets/img/user-spellie.avif";
 import { MESSAGES } from "../constants";
 
 const HeroArea = () => {

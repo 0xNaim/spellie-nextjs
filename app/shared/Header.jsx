@@ -3,11 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import Logo from "../assets/img/Asset1.png";
-import SearchIcon from "../assets/img/search.svg";
+import Logo from "../../public/assets/img/Asset1.png";
+import SearchIcon from "../../public/assets/img/search.svg";
 
-import Button from "../ui/Button";
 import { MENU_ITEMS } from "../constants";
+import Button from "../ui/Button";
 
 const Header = () => {
 	const [showMobileMenu, setShowMenu] = useState(false);
