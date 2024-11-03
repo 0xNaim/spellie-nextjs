@@ -90,10 +90,10 @@ const Solution = () => {
 																Jane Cooper <span>8:42 PM</span>
 															</h3>
 															<p>
-																{`Hello team! Currently tackling year-end
-																accounting, and I've noticed a gap in our
-																invoices from MasterCard. Could someone assist
-																me in locating these missing invoices?`}
+																I think I done good on my exam, but my teacher
+																sayed I might of missed some questions. I was
+																studing all night and still feel like I could of
+																done better.
 															</p>
 														</div>
 													</div>
@@ -108,16 +108,11 @@ const Solution = () => {
 															<h3>
 																Spellie AI <span>8:42 PM</span>
 															</h3>
-															<p>Hey, I found two invoices for MasterCard</p>
-															<ol>
-																<li>Invoice #MC-2023-00100</li>
-																<li>Invoice #MC-2023-00101</li>
-															</ol>
 															<p>
-																They are located the archived section to
-																Xero.com/archived i hope this helps! let me know
-																if you need any additional info on these
-																invoices.
+																I think I did well on my exam, but my teacher
+																said I might have missed some questions. I was
+																studying all night and still feel like I could
+																have done better.
 															</p>
 														</div>
 													</div>
@@ -195,12 +190,7 @@ const Solution = () => {
 const SolutionItem = ({ imgSrc, title, description }) => {
 	return (
 		<div className="solution-single">
-			<Image
-				src={imgSrc}
-				alt="check"
-				width={24}
-				height={24}
-			/>
+			<Image src={imgSrc} alt="check" width={24} height={24} />
 			<div>
 				<h4>{title}</h4>
 				<p>{description}</p>
