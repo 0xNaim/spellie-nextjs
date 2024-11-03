@@ -69,32 +69,32 @@ export const MESSAGES = [
 export const BRANDS = [
 	{
 		name: "Brand 1",
-		image: "../assets/img/brand/1.png",
+		image: "/assets/img/brand/1.png",
 		href: "#"
 	},
 	{
 		name: "Brand 2",
-		image: "../assets/img/brand/2.png",
+		image: "/assets/img/brand/2.png",
 		href: "#"
 	},
 	{
 		name: "Brand 3",
-		image: "../assets/img/brand/3.png",
+		image: "/assets/img/brand/3.png",
 		href: "#"
 	},
 	{
 		name: "Brand 4",
-		image: "../assets/img/brand/4.png",
+		image: "/assets/img/brand/4.png",
 		href: "#"
 	},
 	{
 		name: "Brand 5",
-		image: "../assets/img/brand/5.png",
+		image: "/assets/img/brand/5.png",
 		href: "#"
 	},
 	{
 		name: "Brand 6",
-		image: "../assets/img/brand/6.png",
+		image: "/assets/img/brand/6.png",
 		href: "#"
 	}
 ];

@@ -1,8 +1,7 @@
+import "@/public/assets/css/bootstrap.min.css";
+import "@/public/assets/css/lenis.css";
+import "@/public/assets/css/styles.css";
 import "aos/dist/aos.css";
-import "../public/assets/css/aos.min.css";
-import "../public/assets/css/bootstrap.min.css";
-import "../public/assets/css/lenis.css";
-import "../public/assets/css/styles.css";
 import "./globals.css";
 import Footer from "./shared/Footer";
 import Header from "./shared/Header";

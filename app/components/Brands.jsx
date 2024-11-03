@@ -4,6 +4,7 @@ import Aos from "aos";
 import Link from "next/link";
 import { useEffect } from "react";
 import { BRANDS } from "../constants";
+import Image from "next/image";
 
 const Brands = () => {
 	useEffect(() => {
@@ -26,7 +27,7 @@ const Brands = () => {
 								{BRANDS.map((brand, idx) => (
 									<li key={idx}>
 										<Link href={brand.href}>
-											<img src={brand.image} alt={brand.name} />
+											<Image src={brand.image} alt={brand.name} width={190} height={74} />
 										</Link>
 									</li>
 								))}

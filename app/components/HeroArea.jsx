@@ -26,8 +26,8 @@ const HeroArea = () => {
 								<span>in Minutes!</span>
 							</h1>
 							<p className="text-center mx-850">
-								An Ai asisstant to correct your grammar and language in Slack -
-								"Public", "Private", "User" Channels
+								{`An Ai asisstant to correct your grammar and language in Slack -
+								"Public", "Private", "User" Channels`}
 							</p>
 							<div className="hero-btn">
 								<div data-aos="fade-up" data-aos-duration="1000">
