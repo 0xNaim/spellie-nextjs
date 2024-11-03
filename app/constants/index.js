@@ -194,3 +194,37 @@ export const INSIGHT_CARD_ITEMS = [
 		category: "Email Marketing"
 	}
 ];
+
+export const FAQ_ITEMS = [
+	{
+		title: "What is the limit on creating assistants?",
+		content:
+			"Create as many assistants as you need! Enjoy unlimited flexibility by connecting each assistant to unique integrations and data sources. This allows them to cater to various teams, employees, or specific use cases seamlessly, with no restrictions.",
+		duration: 100
+	},
+	{
+		title: "Is it possible to control the data accessible to an assistant?",
+		content:
+			"Create as many assistants as you need! Enjoy unlimited flexibility by connecting each assistant to unique integrations and data sources. This allows them to cater to various teams, employees, or specific use cases seamlessly, with no restrictions.",
+		duration: 200
+	},
+	{
+		title: "Is it possible to personalize my assistant's chat page?",
+		content:
+			"Create as many assistants as you need! Enjoy unlimited flexibility by connecting each assistant to unique integrations and data sources. This allows them to cater to various teams, employees, or specific use cases seamlessly, with no restrictions.",
+		duration: 300
+	},
+	{
+		title: "What's the time frame for setting up and launching the assistant?",
+		content:
+			"Create as many assistants as you need! Enjoy unlimited flexibility by connecting each assistant to unique integrations and data sources. This allows them to cater to various teams, employees, or specific use cases seamlessly, with no restrictions.",
+		duration: 400
+	},
+	{
+		title:
+			"How customizable is the AI assistant's interface and functionality?",
+		content:
+			"Create as many assistants as you need! Enjoy unlimited flexibility by connecting each assistant to unique integrations and data sources. This allows them to cater to various teams, employees, or specific use cases seamlessly, with no restrictions.",
+		duration: 500
+	}
+];
