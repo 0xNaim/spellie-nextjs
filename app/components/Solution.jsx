@@ -213,7 +213,7 @@ const DataAccessItem = ({ title, iconSrc, details }) => {
 	return (
 		<div className="solution-box-item">
 			<h4>
-				<Image src={iconSrc} alt={title.toLowerCase()} width={24} height={24} />
+				<Image src={iconSrc} alt={title} width={24} height={24} />
 				{title}
 			</h4>
 			<ul>

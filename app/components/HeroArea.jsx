@@ -1,11 +1,73 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import Bot from "../../public/assets/img/Asset 2.png";
 import Avatar from "../../public/assets/img/user-spellie.avif";
 import { MESSAGES } from "../constants";
 
 const HeroArea = () => {
+	// State to manage messages and user input
+	const [messages, setMessages] = useState(MESSAGES);
+	const [userInput, setUserInput] = useState("");
+	const chatListRef = useRef(null);
+
+	// Function to add a new message to the chat
+	const addMessage = (message) => {
+		setMessages((prevMessages) => [...prevMessages, message]);
+	};
+
+	// Function to handle message submission
+	const submitMessage = () => {
+		// Check if the user input is not just whitespace
+		if (userInput.trim()) {
+			const currentTime = new Date().toLocaleTimeString([], {
+				hour: "2-digit",
+				minute: "2-digit"
+			});
+
+			// Add user message to the chat
+			addMessage({
+				sender: "You",
+				time: currentTime,
+				text: userInput
+			});
+
+			setUserInput("");
+
+			// Simulate Spellie's response after a short delay
+			setTimeout(() => {
+				addMessage({
+					sender: "Spellie",
+					time: currentTime,
+					text: "Free quote limit reached. Please upgrade for unlimited access." // Response message
+				});
+			}, 500); // Delay of 500 milliseconds before adding the response
+		}
+	};
+
+	// Handle key press events in the input field
+	const handleKeyPress = (event) => {
+		// Check if the Enter key was pressed
+		if (event.key === "Enter") {
+			event.preventDefault();
+			submitMessage();
+		}
+	};
+
+	// Handle send button click event
+	const handleSendClick = (event) => {
+		event.preventDefault();
+		submitMessage();
+	};
+
+	// Effect to automatically scroll to the bottom of the chat list when messages change
+	useEffect(() => {
+		if (chatListRef.current) {
+			chatListRef.current.scrollTop = chatListRef.current.scrollHeight;
+		}
+	}, [messages]);
+
 	return (
 		<div className="hero-area">
 			<div className="container">
@@ -13,11 +75,11 @@ const HeroArea = () => {
 					<div className="row">
 						<div className="col-md-12">
 							<h1 className="title">
-								<span>Spellie</span> - Correct Grammer <br />
+								<span>Spellie</span> - Correct Grammar <br />
 								<span>in Minutes!</span>
 							</h1>
 							<p className="text-center mx-850">
-								{`An Ai asisstant to correct your grammar and language in Slack -
+								{`An AI assistant to correct your grammar and language in Slack -
 								"Public", "Private", "User" Channels`}
 							</p>
 							<div className="hero-btn">
@@ -43,8 +105,8 @@ const HeroArea = () => {
 
 							{/* Chat lists */}
 							<div className="hero-chat mx-850">
-								<div className="hero-chat-list" id="chatList">
-									{MESSAGES.map((message, idx) => (
+								<div className="hero-chat-list" ref={chatListRef}>
+									{messages.map((message, idx) => (
 										<div key={idx} className="hero-chat-item">
 											<Image
 												src={message?.sender === "You" ? Avatar : Bot}
@@ -59,54 +121,27 @@ const HeroArea = () => {
 										</div>
 									))}
 								</div>
-								<div className="hero-chat-input">
+								<form
+									className="hero-chat-input"
+									onSubmit={(e) => e.preventDefault()}
+								>
 									<input
 										type="text"
 										id="userInput"
 										placeholder="Type your message"
+										value={userInput}
+										onChange={(e) => setUserInput(e.target.value)}
+										onKeyPress={handleKeyPress}
 									/>
-									<button id="sendButton">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											fill="none"
-										>
-											<mask
-												id="mask0_83_965"
-												style={{ maskType: "alpha" }}
-												maskUnits="userSpaceOnUse"
-												x="0"
-												y="0"
-												width="24"
-												height="24"
-											>
-												<rect width="24" height="24" fill="#D9D9D9" />
-											</mask>
-											<g mask="url(#mask0_83_965)">
-												<path
-													d="M3 20V14L11 12L3 10V4L22 12L3 20Z"
-													fill="url(#paint0_linear_83_965)"
-												/>
-											</g>
-											<defs>
-												<linearGradient
-													id="paint0_linear_83_965"
-													x1="3"
-													y1="4"
-													x2="24.0458"
-													y2="7.42352"
-													gradientUnits="userSpaceOnUse"
-												>
-													<stop stopColor="#A570FF" />
-													<stop offset="0.500005" stopColor="#FF6EB2" />
-													<stop offset="1" stopColor="#FFAD66" />
-												</linearGradient>
-											</defs>
-										</svg>
+									<button onClick={handleSendClick} type="submit">
+										<Image
+											src="/assets/img/icon/send.svg"
+											alt="send"
+											width={24}
+											height={24}
+										/>
 									</button>
-								</div>
+								</form>
 							</div>
 						</div>
 					</div>
