@@ -1,20 +1,11 @@
 "use client";
 
-import AOS from "aos";
 import Image from "next/image";
-import { useEffect } from "react";
 import Bot from "../../public/assets/img/Asset 2.png";
 import Avatar from "../../public/assets/img/user-spellie.avif";
 import { MESSAGES } from "../constants";
 
 const HeroArea = () => {
-	useEffect(() => {
-		AOS.init({
-			duration: 1000,
-			once: true
-		});
-	}, []);
-
 	return (
 		<div className="hero-area">
 			<div className="container">

@@ -1,19 +1,8 @@
-"use client";
-
-import Aos from "aos";
-import Link from "next/link";
-import { useEffect } from "react";
-import { BRANDS } from "../constants";
 import Image from "next/image";
+import Link from "next/link";
+import { BRANDS } from "../constants";
 
 const Brands = () => {
-	useEffect(() => {
-		Aos.init({
-			duration: 1000,
-			once: true
-		});
-	}, []);
-
 	return (
 		<div className="hero-brand">
 			<div className="container">
@@ -27,7 +16,12 @@ const Brands = () => {
 								{BRANDS.map((brand, idx) => (
 									<li key={idx}>
 										<Link href={brand.href}>
-											<Image src={brand.image} alt={brand.name} width={190} height={74} />
+											<Image
+												src={brand.image}
+												alt={brand.name}
+												width={190}
+												height={74}
+											/>
 										</Link>
 									</li>
 								))}

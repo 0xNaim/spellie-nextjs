@@ -642,7 +642,7 @@ header nav ul li a:hover {
   margin: 0;
 }
 .solution-item img {
-  width: 100%;
+  /* width: 100%; */
 }
 .solution-chat-message {
   display: grid;

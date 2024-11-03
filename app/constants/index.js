@@ -98,3 +98,78 @@ export const BRANDS = [
 		href: "#"
 	}
 ];
+
+export const FEATURES = [
+	{
+		imgSrc: "/assets/img/icon/1.svg",
+		title: "Skilled Companion",
+		description:
+			"Save time with automated information retrieval, eliminating the need for manual searches or team inquiries.",
+		delay: 100
+	},
+	{
+		imgSrc: "/assets/img/icon/2.svg",
+		title: "Service Bot",
+		description:
+			"Link integrations, sync spreadsheets, or upload documents to instantly engage with the chatbot.",
+		delay: 200
+	},
+	{
+		imgSrc: "/assets/img/icon/3.svg",
+		title: "Smart Helper",
+		description:
+			"Your assistant learns from your responses and grows more intelligent, evolving into your ultimate 'know-it-all' helper.",
+		delay: 300
+	}
+];
+
+export const SOLUTION_ITEMS = [
+	{
+		imgSrc: "/assets/img/check.svg",
+		title: "Marketing",
+		description: "Chat assistant for the marketing & paid ads team."
+	},
+	{
+		imgSrc: "/assets/img/check.svg",
+		title: "Sales",
+		description: "Chat assistant for the Sales teams."
+	},
+	{
+		imgSrc: "/assets/img/check.svg",
+		title: "Finance",
+		description: "Chat assistant for the Finance & Accounting teams."
+	},
+	{
+		imgSrc: "/assets/img/check.svg",
+		title: "Engineering",
+		description: "Chat assistant for the Product & engineering teams."
+	}
+];
+
+export const DATA_ACCESS_ITEMS = [
+	{
+		title: "Github",
+		iconSrc: "/assets/img/icon/github.svg",
+		details: [
+			"Releases: 2",
+			"Repositories: 3",
+			"Pull requests: 19",
+			"Issues: 47"
+		]
+	},
+	{
+		title: "Shopify",
+		iconSrc: "/assets/img/icon/shopify.svg",
+		details: ["Orders: 432", "Customers: 294", "Inventory: 65", "Products: 34"]
+	},
+	{
+		title: "Salesforce",
+		iconSrc: "/assets/img/icon/salesforce.svg",
+		details: ["Invoices: 289", "Customers: 177", "Expenses: 34", "Issues: 2"]
+	},
+	{
+		title: "Intercom",
+		iconSrc: "/assets/img/icon/intercom.svg",
+		details: ["Documents: 56", "Database: 3", "Reminders: 179", "Sheets: 19"]
+	}
+];
