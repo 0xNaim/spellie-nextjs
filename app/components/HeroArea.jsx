@@ -34,7 +34,7 @@ const HeroArea = () => {
 										className="btn btn-tertiary"
 										data-aos-delay="300"
 										data-aos="fade-up"
-										href="#"
+										href="#pricing"
 									>
 										View Pricing
 									</a>
