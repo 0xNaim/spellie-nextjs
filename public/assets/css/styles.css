@@ -541,7 +541,15 @@ header nav ul li a:hover {
 	);
 	border: 1px solid #28263f;
 	padding: 31px;
+	height: 320px;
 }
+
+@media screen and (max-width: 768px) {
+	.feature-item {
+		height: auto;
+	}
+}
+
 .feature-item a {
 	border-radius: 8px;
 	border: 1px solid #302b49;
